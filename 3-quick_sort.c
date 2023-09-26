@@ -10,6 +10,7 @@
 void swap_elements(int *array, ssize_t index1, ssize_t index2)
 {
 	int tmp = array[index1];
+
 	array[index1] = array[index2];
 	array[index2] = tmp;
 }
@@ -71,7 +72,8 @@ void quicksort_recursive(int *array, ssize_t low, ssize_t high, size_t size)
 }
 
 /**
- * quick_sort - Sorts an integer array in ascending order using the Quick Sort algorithm
+ * quick_sort - Sorts an integer array in ascending order using the Quick Sort
+ * algorithm
  *
  * @array: The integer array to be sorted
  * @size: The size of the array
