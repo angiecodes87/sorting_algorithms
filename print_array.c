@@ -7,7 +7,7 @@
  * @arr: The array to be displayed
  * @len: Number of elements in @arr
  */
-void custom_print_array(const int *arr, size_t len)
+void print_array(const int *arr, size_t len)
 {
 	size_t index;
 
